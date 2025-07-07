@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+#inicio {
+    background-color: brown;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu-btn button {
+    border: none;
+    background-color: brown;
+    color: beige;
+}
+
+.menu-btn button:hover {
+    cursor: pointer;
+}
+
+i {
+    color: beige;
+}
+
+i:hover {
+    color: rgb(104, 104, 104);
+    transition: 0.3s;
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+}
+
+html {
+    background-color: beige;
+}
+
+#meio {
+    background-color: brown;
+    color: white;
+}
+
+#buttons-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    background-color: brown;
+    height: 10vh;
+    justify-content: space-around;
+    opacity: 1;
+    max-height: 200px;
+    transition: opacity 0.3s, max-height 0.3s;
+    overflow: hidden;
+}
+
+#buttons-nav.hide {
+    opacity: 0;
+    max-height: 0;
+    pointer-events: none;
+}
+
+#buttons-nav button {
+    width: 100px;
+    border: none;
+    background-color: brown;
+    color: beige;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#buttons-nav button:hover {
+    background-color: rgb(82, 23, 23);
+    cursor: pointer;
+    transition: 1s;
+}
+
+#buttons-nav button a {
+    text-decoration: none;
+    color: beige;
+}
+
+#meio {
+    margin: 20px;
+    padding: 20px;
+}
+
+#fim {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* ...existing code... */
+.whatsapp-share {
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.whatsapp-share:hover {
+  background-color: #128c7e;
+}
+/* ...existing code... */
