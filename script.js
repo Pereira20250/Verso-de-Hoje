@@ -4,7 +4,8 @@ const versiculos = [
   { texto: 'Posso todas as coisas naquele que me fortalece.', referencia: 'Filipenses 4:13' },
   { texto: 'Entrega o teu caminho ao Senhor; confia nele, e ele tudo fará.', referencia: 'Salmo 37:5' },
   { texto: 'Mil cairão ao teu lado e dez mil à tua direita, mas tu não serás atingido', referencia: 'Salmo 91:7'},
-  { texto: 'Entregue o teu caminho ao Senhor; confia nele, e ele tudo fará.', referencia: 'salmo 37:5'},
+  { texto: 'Entregue o teu caminho ao Senhor; confia nele, e ele tudo fará.', referencia: 'Salmo 37:5'},
+  { texto: 'Não temas pois eu sou contigo, e não te assombres pois eu sou o teu Deus.', referencia: ''Isaias '41:10'},
 ];
 
 function getTodayKey() {
